@@ -62,7 +62,7 @@ type LibvirtExporter struct {
 func NewLibvirtExporter(uri string, exportNovaMetadata bool) (*LibvirtExporter, error) {
 	var domainLabels []string
 	if exportNovaMetadata {
-		domainLabels = []string{"domain", "uuid", "name", "flavor", "project_name"}
+		domainLabels = []string{"domain", "uuid", "name", "flavor", "project_name", "user_name", "creationTime"}
 	} else {
 		domainLabels = []string{"domain", "uuid"}
 	}
