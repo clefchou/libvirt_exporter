@@ -24,7 +24,7 @@ import (
         "github.com/prometheus/client_golang/prometheus/promhttp"
 	"gopkg.in/alecthomas/kingpin.v2"
 
-	"github.com/kumina/libvirt_exporter/libvirt_schema"
+	"github.com/clefchou/libvirt_exporter/libvirt_schema"
 )
 
 // LibvirtExporter implements a Prometheus exporter for libvirt state.
