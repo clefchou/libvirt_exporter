@@ -36,6 +36,7 @@ type NovaFlavor struct {
 
 type NovaOwner struct {
 	ProjectName string `xml:"project"`
+	UserName string `xml:"user"`
 }
 
 type Devices struct {
